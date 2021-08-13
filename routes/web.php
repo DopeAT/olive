@@ -11,8 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Localized
+Route::localized(function () {
+    Route::get('/', function () {
+        return view('home');
+    });
 
-Auth::routes();
+    Auth::routes();
+});

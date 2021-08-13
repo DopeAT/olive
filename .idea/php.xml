@@ -91,6 +91,11 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/0.0.0/composer-include-files" />
+      <path value="$PROJECT_DIR$/vendor/codezero/laravel-localized-routes" />
+      <path value="$PROJECT_DIR$/vendor/codezero/browser-locale" />
+      <path value="$PROJECT_DIR$/vendor/codezero/laravel-localizer" />
+      <path value="$PROJECT_DIR$/vendor/astrotomic/laravel-translatable" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
