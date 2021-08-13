@@ -10942,3 +10942,297 @@ a.text-dark:focus {
   }
 }
 
+.btn-custom {
+  background: #086a32;
+  color: #fff !important;
+}
+
+.f-w-500 {
+  font-weight: 500;
+  font-family: auto;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+hr.red-hr {
+  max-width: 10.25rem;
+  border: 0.2rem red;
+}
+
+hr.white-hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+@media (max-width: 575.98px) {
+  .pt-sm-10 {
+    padding-top: 5rem !important;
+  }
+}
+
+.theme-color {
+  color: #086a32 !important;
+}
+
+.blue-color {
+  color: #01b4ff !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.fab.fa-whatsapp {
+  color: #25d366;
+}
+
+.hidden {
+  display: none;
+}
+
+.about-page-section,
+.services-page-section {
+  padding-top: 250px;
+  text-align: center;
+  background: #eee;
+}
+
+.disabled {
+  cursor: not-allowed !important;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.text-pre-wrap {
+  white-space: pre-wrap;
+}
+
+nav#nav {
+  min-height: 60px;
+}
+
+nav#nav .navbar-nav .nav-link {
+  color: #000;
+}
+
+nav#nav .navbar-nav .nav-link:focus,
+nav#nav .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #086a32;
+  padding-bottom: 5px;
+}
+
+footer#footer {
+  background-color: #086a32;
+  color: #fff;
+  padding: 40px 0;
+}
+
+footer#footer .container .row div {
+  padding: 5px 60px;
+}
+
+footer#footer span.footer-heading-text {
+  padding: 20px 10px;
+  line-height: 28.57142858px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+
+footer#footer ul.footerLinks {
+  list-style-type: none;
+  text-align: left;
+  padding: 10px;
+  margin-top: 10px;
+  line-height: 32px;
+  font-size: 16px;
+}
+
+footer#footer ul.footerLinks a {
+  color: #fff;
+}
+
+footer#footer .footer-eco {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer#footer ul.socislBtns li a i {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 15%;
+  transition: all 0.2s ease-in-out;
+}
+
+footer#footer ul.socislBtns li a i.fa-facebook-f {
+  background: #3b5998;
+}
+
+footer#footer ul.socislBtns li a i.fa-linkedin-in {
+  background: #007bb6;
+}
+
+footer#footer ul.socislBtns li a i.fa-twitter {
+  background: #00aced;
+}
+
+footer#footer #news-feedback #alert-danger {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer#footer #news-feedback #alert-danger button#alert-btn {
+  padding: 5px 20px;
+}
+
+@media (max-width: 991.98px) {
+  footer#footer .container .row div {
+    padding: 5px 0px;
+  }
+}
+
+#home .intro-section {
+  height: 700px;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+#home .intro-section#intro {
+  background-image: url(/images/vadim-sherbakov-d6ebY-faOO0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+#home .intro-section#intro .darken-bg-text {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+#home .intro-section#intro .intro-text {
+  padding-top: 10%;
+  padding-bottom: 70px;
+  color: #fdf3f3;
+}
+
+#home .intro-section#intro .intro-text .intro-lead-in {
+  font-size: 2.5em;
+  font-family: "Roboto Slab", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#home .intro-section#intro .intro-text p {
+  padding: 15px;
+  font-size: 1.2em;
+  font-family: "Roboto Slab", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#home .intro-section#intro .intro-text .fas.fa-angle-down {
+  font-size: 30px !important;
+}
+
+#home .intro-section#intro .icons {
+  font-size: 20px;
+  color: #fdf3f3;
+  padding: 0 0 25px 0;
+}
+
+#home .intro-section#intro .icons span {
+  margin-right: 16.5px;
+  text-transform: uppercase;
+}
+
+#home #whyUseUs h4 {
+  font-weight: 600;
+}
+
+#home #whyUseUs .title {
+  color: #333;
+  font-size: 24px;
+}
+
+#home #whyUseUs .boxes {
+  text-align: center;
+  border: 2px solid #fff;
+  margin: 5px 0;
+}
+
+#home #whyUseUs .non-icon {
+  color: #40a0d2;
+}
+
+#home #whyUseUs .non-icon,
+#home #whyUseUs .icon-field {
+  font-family: "Roboto Slab", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 3em;
+  font-weight: 300;
+}
+
+#home #about-us .testimonials .testimonial-user {
+  margin-right: 23%;
+  margin-left: 23%;
+}
+
+#home #about-us .testimonials .testimonial-user img {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  max-width: 170px;
+  margin: 0 auto;
+}
+
+#home #about-us .testimonials .testimonial-user .avatar-name {
+  margin-top: 1.5rem !important;
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+#home #about-us .testimonials .testimonial-user .prof {
+  text-align: center;
+  font-weight: 600;
+}
+
+#home #about-us .testimonials .testimonial-user .star-text {
+  color: #ff9800 !important;
+  text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  #home .intro-section {
+    height: 575px;
+    padding-top: 0px;
+    text-align: center;
+    background: #fff;
+  }
+
+  #home .intro-section#intro .intro-text {
+    padding-top: 5%;
+    padding-bottom: 20px;
+  }
+
+  #home .intro-section#intro .icons {
+    display: grid;
+  }
+
+  #home .intro-section#intro .icons span {
+    margin: 5px auto;
+    text-transform: uppercase;
+  }
+
+  #home #whyUseUs .title {
+    font-size: 23px;
+    font-weight: 600;
+  }
+}
+

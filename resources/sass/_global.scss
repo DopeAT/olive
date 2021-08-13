@@ -1,0 +1,66 @@
+.btn-custom{
+    background: $theme;
+    color: #fff!important;
+}
+.f-w-500 {
+    font-weight: 500;
+    font-family: auto;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+hr.red-hr{
+    max-width: 10.25rem;
+    border: .2rem red;
+}
+
+hr.white-hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.pt-sm-10 {
+    @media (max-width: 575.98px) {
+        padding-top: 5rem !important;
+    }
+}
+
+.theme-color {
+    color: $theme!important;
+}
+
+.blue-color{
+    color: $blue-custom;
+}
+.pointer{
+    cursor: pointer;
+}
+.fab.fa-whatsapp {
+    color: #25d366;
+}
+
+.hidden{
+    display: none;
+}
+
+.about-page-section, .services-page-section {
+    padding-top: 250px;
+    text-align: center;
+    background: #eee;
+}
+
+.disabled{
+    cursor: not-allowed!important;
+}
+
+.underline {
+    text-decoration: underline!important;
+}
+
+.text-pre-wrap {
+    white-space: pre-wrap;
+}
