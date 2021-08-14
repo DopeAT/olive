@@ -1,0 +1,86 @@
+/* Inbox Style */
+.table-inbox tr {
+    cursor: pointer;
+}
+.table-inbox tr:first-child td {
+    border-top: none;
+}
+.table-inbox tr td:first-child, .table-inbox tr td:nth-child(2) {
+    text-align: center;
+    width: 35px;
+}
+.table-inbox tr td .star {
+    margin-left: 6px;
+}
+.table-inbox tr td .star.star-checked i {
+    color: goldenrod;
+}
+.table-inbox tr .media {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.table-inbox tr .media .media-object {
+    width: 35px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+.table-inbox tr .media .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+.table-inbox tr .media .media-body h4 {
+    margin: 0px;
+    font-size: 14px;
+    line-height: normal;
+}
+.table-inbox tr .media .media-body .email-summary {
+    margin: 0px 110px 0px 0px;
+}
+.table-inbox tr .media .media-body .email-summary .span.label {
+    padding: 1px 5px 2px;
+}
+.table-inbox tr .media .media-body .media-meta {
+    top: 0px;
+    font-size: 11px;
+    color: #999;
+    position: absolute;
+    right: 10px;
+}
+.table-inbox tr.unread {
+    background-color: #eee;
+}
+.inbox-show .back-btn {
+    cursor: pointer;
+    padding: 10px;
+    color: #000;
+}
+.inbox-show .back-btn i {
+    font-size: 20px;
+}
+.inbox-show .back-btn:hover {
+    background-color: rgba(32, 33, 36, 0.059);
+    border-radius: 50%;
+}
+.inbox-show .headers .user img {
+    width: 32px;
+}
+.inbox-show .headers .user svg {
+    width: 15px;
+    height: 20px;
+    color: #82868b;
+    fill: #82868b;
+}
+.inbox-show .headers .user .email {
+    color: #828c93;
+}
+.inbox-show .headers .time {
+    color: #828c93;
+}
+
+.inbox-show .body .content {
+    white-space: normal;
+    font-size:12px;
+    word-break:break-all;
+}

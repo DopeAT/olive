@@ -5,6 +5,17 @@ Route::middleware(['admin.access'])->group(function(){
     // Dashboard
     Route::get('/admin', 'Admin\AdminController@dashboard')->name('dashboard');
 
+    // Messages
+    Route::resource('/admin/messages', 'Admin\MessageController')->names([
+        'index'   => 'admin.messages.index',
+        'create'  => 'admin.messages.create',
+        'store'   => 'admin.messages.store',
+        'show'    => 'admin.messages.show',
+        'edit'    => 'admin.messages.edit',
+        'update'  => 'admin.messages.update',
+        'destroy' => 'admin.messages.destroy',
+    ]);
+
     // Users
     Route::resource('/admin/users', 'Admin\UserController')->names([
         'index'   => 'admin.users.index',
@@ -30,6 +41,17 @@ Route::middleware(['admin.access'])->group(function(){
         'edit'    => 'admin.newsletter.edit',
         'update'  => 'admin.newsletter.update',
         'destroy' => 'admin.newsletter.destroy',
+    ]);
+
+    // Posts
+    Route::resource('/admin/posts', 'Admin\PostsController')->names([
+        'index'   => 'admin.posts.index',
+        'create'  => 'admin.posts.create',
+        'store'   => 'admin.posts.store',
+        'show'    => 'admin.posts.show',
+        'edit'    => 'admin.posts.edit',
+        'update'  => 'admin.posts.update',
+        'destroy' => 'admin.posts.destroy',
     ]);
 
     // Pages

@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class PostTranslation extends Model
 {
     public $timestamps = false;
-    protected $fillable = ['title', 'description', 'body'];
+    protected $fillable = ['title', 'slug', 'description', 'body'];
 }

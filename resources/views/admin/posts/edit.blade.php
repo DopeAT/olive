@@ -1,6 +1,6 @@
 @extends('admin.layouts.app')
-@section('title', 'Pages Admin Dashboard | Olive')
-@section('heading', 'Pages - Dashboard')
+@section('title', 'Posts Admin Dashboard | Olive')
+@section('heading', 'Posts - Dashboard')
 
 @section('content')
 
@@ -14,7 +14,7 @@
 
             @include('layouts.messages')
 
-            <form method="POST" action="{{ route('admin.pages.update', $data->id) }}" class="pt-3" enctype="multipart/form-data">
+            <form method="POST" action="{{ route('admin.posts.update', $data->id) }}" class="pt-3" enctype="multipart/form-data">
 
                 @csrf
                 @method('PUT')
@@ -30,7 +30,6 @@
                         </li>
                     @endforeach
                 </ul>
-
                 <div class="tab-content mt-5" id="myTabContent">
                     @foreach($data->translations as $lang)
                         <div class="tab-pane fade {{ $lang->locale === 'el' ? 'show active' : null }}" id="{{$lang->locale}}"
@@ -48,6 +47,15 @@
                             </div>
 
                             <div class="form-group row">
+                                <label for="{{$lang->locale}}[description]" class="col-md-2 col-form-label text-md-right">Description</label>
+                                <div class="col-md-8">
+                                    <textarea class="form-control form-control-sm" name="{{$lang->locale}}[description]" id="description" cols="30"
+                                              rows="5" placeholder="Post Description"
+                                    >{!! $lang->description !!}</textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
                                 <label for="body" class="col-md-2 col-form-label text-md-right">Body</label>
                                 <div class="col-md-8">
                                     <textarea class="form-control form-control-sm mytextarea" name="{{$lang->locale}}[body]" id="body" cols="30"
@@ -58,6 +66,15 @@
                         </div>
                     @endforeach
                 </div>
+
+                <div class="form-group row">
+                    <label for="image" class="col-md-2 col-form-label text-md-right">Post Image</label>
+
+                    <div class="col-md-8">
+                        <input id="image" type="file" name="image" />
+                    </div>
+                </div>
+
 
                 <div class="form-group row mb-0">
                     <div class="col-md-6 offset-md-2">

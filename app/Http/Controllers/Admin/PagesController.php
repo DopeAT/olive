@@ -5,13 +5,14 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Page;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 
 class PagesController extends Controller
 {
 
     public function index()
     {
-        $pages = Page::all();
+        $pages = Page::withTranslation()->translatedIn(app()->getLocale())->get();
 
         return view('admin.pages.index', [
             'pages' => $pages
@@ -20,16 +21,20 @@ class PagesController extends Controller
 
     public function create()
     {
-        return view('admin.pages.create');
+        return view('admin.pages.create', [
+            'langs' => $this->webLangs
+        ]);
     }
 
     public function store(Request $request)
     {
-        Page::create([
-            'title'  => $request->title,
-            'slug'  => slug($request->title),
-            'body'  => $request->body
-        ]);
+        $data = $request->all();
+
+        foreach (config('translatable.locales') as $locale) {
+            $data[$locale]['slug'] = slug($data[$locale]['title']);
+        }
+
+        Page::create($data);
 
         session()->flash('success', 'Page Created Successfully.');
         return redirect('/admin/pages');
@@ -49,18 +54,23 @@ class PagesController extends Controller
 
     public function update(Request $request, Page $page)
     {
-        $page->update([
-            'title'  => $request->title,
-            'slug'  => slug($request->title),
-            'body'  => $request->body
-        ]);
+        $data = $request->all();
+
+        foreach (config('translatable.locales') as $locale) {
+            $data[$locale]['slug'] = slug($data[$locale]['title']);
+        }
+
+        $page->update($data);
 
         session()->flash('success', "{$page->title} Updated Successfully.");
         return redirect('/admin/pages');
     }
 
-    public function destroy($id)
+    public function destroy(Page $page)
     {
-        //
+        $page->delete();
+
+        session()->flash('success', 'Page Removed.');
+        return redirect('/admin/pages');
     }
 }

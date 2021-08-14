@@ -1,5 +1,5 @@
 @extends('admin.layouts.app')
-@section('title', 'Roles Admin Dashboard | EduConsultOrg')
+@section('title', 'Roles Admin Dashboard | Olive')
 @section('heading', 'Roles - Dashboard')
 
 @section('content')
@@ -25,25 +25,25 @@
             <div class="table-responsive bg-white p-3">
                 <table id="datatable" class="table w-100">
                     <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Role</th>
-                            <th>Users</th>
-                            <th class="text-right"><i class="fas fa-cog"></i></th>
-                        </tr>
+                    <tr>
+                        <th>#</th>
+                        <th>Role</th>
+                        <th>Users</th>
+                        <th class="text-right"><i class="fas fa-cog"></i></th>
+                    </tr>
                     </thead>
                     <tbody>
-                        @foreach($roles as $role)
+                    @foreach($roles as $role)
 
-                            <tr>
-                                <td class="font-weight-bold">{{ $role->id }}</td>
-                                <td class="font-weight-bold text-primary">{{ $role->name }}</td>
-                                <td>{{ $role->users->count() }}</td>
-                                <td></td>
-                            </tr>
+                        <tr>
+                            <td class="font-weight-bold">{{ $role->id }}</td>
+                            <td class="font-weight-bold text-primary">{{ $role->name }}</td>
+                            <td>{{ $role->users->count() }}</td>
+                            <td></td>
+                        </tr>
 
-                        @endforeach
-                    </table>
+                    @endforeach
+                </table>
             </div>
         </div>
 

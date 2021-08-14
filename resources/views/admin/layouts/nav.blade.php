@@ -36,9 +36,9 @@
         <div id="collapseEmails" class="collapse" aria-labelledby="headingEmails" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Email:</h6>
-            {{--<a class="collapse-item" href="#">Compose</a>--}}
-{{--                <a class="collapse-item" href="{{ route('admin.messages.index') }}">Inbox</a>--}}
-            {{--<a class="collapse-item" href="#">Sent</a>--}}
+{{--            <a class="collapse-item" href="#">Compose</a>--}}
+                <a class="collapse-item" href="{{ route('admin.messages.index') }}">Inbox</a>
+{{--            <a class="collapse-item" href="#">Sent</a>--}}
             </div>
         </div>
     </li>
@@ -129,6 +129,14 @@
 {{--            <i class="fab fa-fw fa-google"></i>--}}
 {{--            <span>SEO</span>--}}
 {{--        </a>--}}
+    </li>
+
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('admin.posts.index') }}">
+            <i class="fas fa-fw fa-blog"></i>
+            <span>Blog</span>
+        </a>
     </li>
 
     <!-- Nav Item - Pages Collapse Menu -->
