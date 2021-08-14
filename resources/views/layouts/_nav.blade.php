@@ -25,7 +25,7 @@
                     <a class="nav-link theme-color font-weight-bold" href="">ORDER</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Blog</a>
+                    <a class="nav-link" href="{{ route('blog.index') }}">{{ __('Blog') }}</a>
                 </li>
                 @guest
                     <li class="nav-item">
