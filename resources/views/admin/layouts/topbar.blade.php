@@ -38,6 +38,9 @@
 {{--                    @if($notifications['orders']['total'] + $notifications['newsletter']['total'] > 0)--}}
 {{--                        <span class="badge badge-danger badge-counter">{{ $notifications['orders']['total'] + $notifications['newsletter']['total'] }}</span>--}}
 {{--                    @endif--}}
+                    @if($notifications['newsletter']['total'] > 0)
+                        <span class="badge badge-danger badge-counter">{{ $notifications['newsletter']['total'] }}</span>
+                    @endif
                 </a>
                 <!-- Dropdown - Alerts -->
                 <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
@@ -45,12 +48,14 @@
                         Alerts Center
                     </h6>
 {{--                    @if($notifications['orders']['total'] + $notifications['newsletter']['total'] === 0)--}}
-{{--                        <a class="dropdown-item d-flex align-items-center" href="#">--}}
-{{--                            <div>--}}
-{{--                                <span class="font-weight-bold">No Notifications Available</span>--}}
-{{--                            </div>--}}
-{{--                        </a>--}}
-{{--                    @else--}}
+
+                    @if($notifications['newsletter']['total'] === 0)
+                        <a class="dropdown-item d-flex align-items-center" href="#">
+                            <div>
+                                <span class="font-weight-bold">No Notifications Available</span>
+                            </div>
+                        </a>
+                    @else
 {{--                        @if($notifications['orders']['total'] > 0)--}}
 {{--                            <a class="dropdown-item d-flex align-items-center" href="{{ route('admin.orders.index') }}">--}}
 {{--                                <div class="mr-3">--}}
@@ -64,19 +69,19 @@
 {{--                            </a>--}}
 {{--                        @endif--}}
 
-{{--                        @if($notifications['newsletter']['total'] > 0)--}}
-{{--                            <a class="dropdown-item d-flex align-items-center" href="{{ route('admin.newsletter.index') }}">--}}
-{{--                                <div class="mr-3">--}}
-{{--                                    <div class="icon-circle bg-primary">--}}
-{{--                                        <i class="fas fa-file-alt text-white"></i>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div>--}}
-{{--                                    <span class="font-weight-bold">{{ $notifications['newsletter']['total'] }} New Newsletter</span>--}}
-{{--                                </div>--}}
-{{--                            </a>--}}
-{{--                        @endif--}}
-{{--                    @endif--}}
+                        @if($notifications['newsletter']['total'] > 0)
+                            <a class="dropdown-item d-flex align-items-center" href="{{ route('admin.newsletter.index') }}">
+                                <div class="mr-3">
+                                    <div class="icon-circle bg-primary">
+                                        <i class="fas fa-file-alt text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="font-weight-bold">{{ $notifications['newsletter']['total'] }} New Newsletter</span>
+                                </div>
+                            </a>
+                        @endif
+                    @endif
                 </div>
             </li>
 
@@ -93,25 +98,25 @@
                         Messages Inbox
                     </h6>
 
-{{--                    @forelse($notifications['messages']['data'] as $messagesData)--}}
-{{--                        <a class="dropdown-item d-flex align-items-center" href="{{ route('admin.messages.show', $messagesData->id) }}">--}}
-{{--                            <div class="dropdown-list-image mr-3">--}}
-{{--                                <img class="rounded-circle" src="https://uybor.uz/borless/uybor/img/user-images/no-avatar.png" alt="">--}}
-{{--                                <div class="status-indicator bg-success"></div>--}}
-{{--                            </div>--}}
-{{--                            <div class="font-weight-bold">--}}
-{{--                                <div class="text-truncate">{!! substr($messagesData->message, 0, 40) !!}</div>--}}
-{{--                                <div class="small text-gray-500">{{ $messagesData->name }} · {{ $messagesData->created_at->diffForHumans() }}</div>--}}
-{{--                            </div>--}}
-{{--                        </a>--}}
-{{--                    @empty--}}
-{{--                        <a class="dropdown-item d-flex align-items-center" href="#">--}}
-{{--                            <span>No new Messages</span>--}}
-{{--                        </a>--}}
-{{--                    @endforelse--}}
+                    @forelse($notifications['messages']['data'] as $messagesData)
+                        <a class="dropdown-item d-flex align-items-center" href="{{ route('admin.messages.show', $messagesData->id) }}">
+                            <div class="dropdown-list-image mr-3">
+                                <img class="rounded-circle" src="https://uybor.uz/borless/uybor/img/user-images/no-avatar.png" alt="">
+                                <div class="status-indicator bg-success"></div>
+                            </div>
+                            <div class="font-weight-bold">
+                                <div class="text-truncate">{!! substr($messagesData->message, 0, 40) !!}</div>
+                                <div class="small text-gray-500">{{ $messagesData->name }} · {{ $messagesData->created_at->diffForHumans() }}</div>
+                            </div>
+                        </a>
+                    @empty
+                        <a class="dropdown-item d-flex align-items-center" href="#">
+                            <span>No new Messages</span>
+                        </a>
+                    @endforelse
 
 
-{{--                    <a class="dropdown-item text-center small text-gray-500" href="{{ route('admin.messages.index') }}">Read More Messages</a>--}}
+                    <a class="dropdown-item text-center small text-gray-500" href="{{ route('admin.messages.index') }}">Read More Messages</a>
                 </div>
             </li>
         @endif

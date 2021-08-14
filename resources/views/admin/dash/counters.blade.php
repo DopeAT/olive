@@ -23,7 +23,7 @@
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                         <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Orders</div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $counters['orders'] }}</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">0</div> <!-- //$counters['orders'] -->
                     </div>
                     <div class="col-auto">
                         <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -40,7 +40,7 @@
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                         <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Products</div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $counters['products'] }}</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">100</div> <!-- //$counters['products'] -->
                     </div>
                     <div class="col-auto">
                         <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
