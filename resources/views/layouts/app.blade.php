@@ -32,7 +32,7 @@
             {{--NavBar--}}
             @include('layouts._nav')
 
-            <div id="@yield('page_id')">
+            <div id="@yield('page_id')" class="pt-5 pt-sm-10">
                 @yield('content')
             </div>
         </div>

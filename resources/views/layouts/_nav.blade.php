@@ -39,7 +39,7 @@
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ route('profile') }}">Profile</a>
+{{--                            <a class="dropdown-item" href="{{ route('profile') }}">Profile</a>--}}
                             <hr>
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
@@ -57,16 +57,3 @@
         </div>
     </div>
 </nav>
-
-@auth
-    @if(!empty($activeSurvey) && !Route::is('survey'))
-        <div id="subNav" class="text-center" style="padding-top: 85px;"></div>
-
-        <div id="messages-flash"
-             style="background: rgba(255, 0, 0, 0.7);text-align: center;padding: 10px;font-weight: 600;">
-            <a href="{{ route('survey', $activeSurvey->order->payment_id) }}" class="font-weight-bold text-white">
-                Dont forget to complete your survey. Please click here to complete it.
-            </a>
-        </div>
-    @endif
-@endauth

@@ -13,9 +13,11 @@
 
 // Localized
 Route::localized(function () {
-    Route::get('/', function () {
-        return view('home');
-    });
-
     Auth::routes();
+
+    Route::get('/', 'HomeController@index')->name('home');
+    Route::get('/about', 'PagesController@about')->name('about');
 });
+
+// Admin Routes
+require_once('admin.php');
