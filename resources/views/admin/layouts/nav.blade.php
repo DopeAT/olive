@@ -85,10 +85,10 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
-{{--        <a class="nav-link" href="{{ route('admin.roles.index') }}">--}}
-{{--            <i class="fas fa-fw fa-user-astronaut"></i>--}}
-{{--            <span>Roles</span>--}}
-{{--        </a>--}}
+        <a class="nav-link" href="{{ route('admin.roles.index') }}">
+            <i class="fas fa-fw fa-user-astronaut"></i>
+            <span>Roles</span>
+        </a>
     </li>
 
     <!-- Nav Item - Pages Collapse Menu -->
@@ -133,10 +133,10 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
-{{--        <a class="nav-link" href="{{ route('admin.pages.index') }}">--}}
-{{--            <i class="fas fa-fw fa-atlas"></i>--}}
-{{--            <span>Web Pages</span>--}}
-{{--        </a>--}}
+        <a class="nav-link" href="{{ route('admin.pages.index') }}">
+            <i class="fas fa-fw fa-atlas"></i>
+            <span>Web Pages</span>
+        </a>
     </li>
 
     <!-- Nav Item - Users Collapse Menu -->
@@ -164,10 +164,10 @@
 
     <!-- Nav Item - Mail Data -->
     <li class="nav-item">
-{{--        <a class="nav-link" href="{{ route('admin.newsletter.index') }}">--}}
-{{--            <i class="fas fa-fw fa-table"></i>--}}
-{{--            <span>Mail Data</span>--}}
-{{--        </a>--}}
+        <a class="nav-link" href="{{ route('admin.newsletter.index') }}">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Mail Data</span>
+        </a>
     </li>
 
     <!-- Nav Item - Discounts -->

@@ -43,4 +43,9 @@ class User extends Authenticatable
     {
         return ucwords(strtolower($this->firstname) . ' '. strtolower($this->lastname));
     }
+
+    public function role()
+    {
+        return $this->belongsTo(Role::class);
+    }
 }
