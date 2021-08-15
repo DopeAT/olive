@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6cf47a0f-1518-4dff-ba4c-00d6c87eafa0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_06_10_174751_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_06_10_174751_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dash/counters.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dash/counters.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,16 +128,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\olive\resources\views\admin" />
+      <recent name="C:\xampp\htdocs\olive\app" />
+      <recent name="C:\xampp\htdocs\olive\app\Http\Controllers\Admin" />
       <recent name="C:\xampp\htdocs\olive\database\migrations" />
       <recent name="C:\xampp\htdocs\olive\resources\views\web\blog" />
-      <recent name="C:\xampp\htdocs\olive\app\Http\Controllers\Admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -150,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628950877134</updated>
       <workItem from="1628950878458" duration="4487000" />
-      <workItem from="1629038114260" duration="1696000" />
+      <workItem from="1629038114260" duration="3803000" />
     </task>
     <servers />
   </component>

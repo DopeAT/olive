@@ -61,10 +61,10 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
-{{--        <a class="nav-link" href="{{ route('admin.products.index') }}">--}}
-{{--            <i class="fas fa-fw fa-shopping-cart"></i>--}}
-{{--            <span>Products</span>--}}
-{{--        </a>--}}
+        <a class="nav-link" href="{{ route('admin.products.index') }}">
+            <i class="fas fa-fw fa-shopping-cart"></i>
+            <span>Product</span>
+        </a>
     </li>
 
     <!-- Nav Item - Pages Collapse Menu -->

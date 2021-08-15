@@ -18,7 +18,9 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->string('slug');
             $table->mediumText('description');
-            $table->decimal('price','15','2');
+            $table->decimal('price_el','15','2');
+            $table->decimal('price_en','15','2');
+            $table->decimal('price_ru','15','2');
             $table->integer('amount');
             $table->timestamps();
             $table->softDeletes();
