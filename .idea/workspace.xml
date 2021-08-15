@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6cf47a0f-1518-4dff-ba4c-00d6c87eafa0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_06_10_174751_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_06_10_174751_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dash/counters.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dash/counters.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/nav.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
@@ -157,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628950877134</updated>
       <workItem from="1628950878458" duration="4487000" />
-      <workItem from="1629038114260" duration="3803000" />
+      <workItem from="1629038114260" duration="4225000" />
     </task>
     <servers />
   </component>

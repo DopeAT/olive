@@ -75,4 +75,15 @@ Route::middleware(['admin.access'])->group(function(){
         'update'  => 'admin.pages.update',
         'destroy' => 'admin.pages.destroy',
     ]);
+
+    // Discounts
+    Route::resource('/admin/discounts', 'Admin\DiscountController')->names([
+        'index'   => 'admin.discounts.index',
+        'create'  => 'admin.discounts.create',
+        'store'   => 'admin.discounts.store',
+        'show'    => 'admin.discounts.show',
+        'edit'    => 'admin.discounts.edit',
+        'update'  => 'admin.discounts.update',
+        'destroy' => 'admin.discounts.destroy',
+    ]);
 });

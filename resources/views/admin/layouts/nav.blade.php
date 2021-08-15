@@ -180,10 +180,10 @@
 
     <!-- Nav Item - Discounts -->
     <li class="nav-item">
-{{--        <a class="nav-link" href="{{ route('admin.discounts.index') }}">--}}
-{{--            <i class="fas fa-fw fa-tags "></i>--}}
-{{--            <span>Discounts</span>--}}
-{{--        </a>--}}
+        <a class="nav-link" href="{{ route('admin.discounts.index') }}">
+            <i class="fas fa-fw fa-tags "></i>
+            <span>Discounts</span>
+        </a>
     </li>
 
     <!-- Divider -->
