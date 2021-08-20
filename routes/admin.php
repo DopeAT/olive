@@ -16,6 +16,17 @@ Route::middleware(['admin.access'])->group(function(){
         'destroy' => 'admin.products.destroy',
     ]);
 
+    // Orders
+    Route::resource('/admin/orders', 'Admin\OrderController')->names([
+        'index'   => 'admin.orders.index',
+        'create'  => 'admin.orders.create',
+        'store'   => 'admin.orders.store',
+        'show'    => 'admin.orders.show',
+        'edit'    => 'admin.orders.edit',
+        'update'  => 'admin.orders.update',
+        'destroy' => 'admin.orders.destroy',
+    ]);
+
     // Messages
     Route::resource('/admin/messages', 'Admin\MessageController')->names([
         'index'   => 'admin.messages.index',
