@@ -28,20 +28,20 @@
 {{--    </li>--}}
 
     <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEmails" aria-expanded="true" aria-controls="collapseEmails">
-            <i class="fas fa-fw fa-envelope-open-text"></i>
-            <span>Emails</span>
-        </a>
-        <div id="collapseEmails" class="collapse" aria-labelledby="headingEmails" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">Email:</h6>
+{{--    <li class="nav-item">--}}
+{{--        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEmails" aria-expanded="true" aria-controls="collapseEmails">--}}
+{{--            <i class="fas fa-fw fa-envelope-open-text"></i>--}}
+{{--            <span>Emails</span>--}}
+{{--        </a>--}}
+{{--        <div id="collapseEmails" class="collapse" aria-labelledby="headingEmails" data-parent="#accordionSidebar">--}}
+{{--            <div class="bg-white py-2 collapse-inner rounded">--}}
+{{--                <h6 class="collapse-header">Email:</h6>--}}
 {{--            <a class="collapse-item" href="#">Compose</a>--}}
-                <a class="collapse-item" href="{{ route('admin.messages.index') }}">Inbox</a>
+{{--                <a class="collapse-item" href="{{ route('admin.messages.index') }}">Inbox</a>--}}
 {{--            <a class="collapse-item" href="#">Sent</a>--}}
-            </div>
-        </div>
-    </li>
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </li>--}}
 
     <!-- Divider -->
     <hr class="sidebar-divider">
@@ -55,7 +55,7 @@
     <li class="nav-item">
         <a class="nav-link" href="{{ route('admin.products.index') }}">
             <i class="fas fa-fw fa-shopping-cart"></i>
-            <span>Product</span>
+            <span>Products</span>
         </a>
     </li>
 

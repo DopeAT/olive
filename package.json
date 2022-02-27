@@ -13,7 +13,6 @@
         "axios": "^0.19",
         "bootstrap": "^4.0.0",
         "cross-env": "^7.0",
-        "jquery": "^3.2",
         "laravel-mix": "^5.0.1",
         "lodash": "^4.17.19",
         "popper.js": "^1.12",
@@ -22,5 +21,15 @@
         "sass-loader": "^8.0.0",
         "vue": "^2.5.17",
         "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "flag-icon-css": "^4.1.6",
+        "jquery": "^3.2",
+        "moment": "^2.29.0",
+        "vue-i18n": "^8.26.7",
+        "vue-stripe-elements-plus": "^0.3.2",
+        "vuelidate": "^0.7.5",
+        "vuex": "^3.4.0",
+        "vuex-persist": "^2.2.0"
     }
 }

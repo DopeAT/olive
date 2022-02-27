@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Product;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -13,4 +14,12 @@ class Controller extends BaseController
 
 
     public $webLangs = ['el', 'en', 'ru'];
+    public $products = [];
+    public $olive = null;
+
+    public function __construct()
+    {
+        $this->products = Product::all();
+        $this->olive = $this->products->where('id', 1);
+    }
 }

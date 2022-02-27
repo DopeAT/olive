@@ -17,10 +17,10 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $product = Product::first();
+        $products = Product::all();
 
         return view('admin.products.index', [
-            'product' => $product
+            'products' => $products
         ]);
     }
 

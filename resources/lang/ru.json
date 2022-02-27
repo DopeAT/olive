@@ -107,6 +107,7 @@
     "Cancel Subscription": "Отменить подписку",
     "Cape Verde": "Кабо-Верде",
     "Card": "Карта",
+    "Cardholder Name": "имя владельца карты",
     "Cayman Islands": "Каймановы острова",
     "Central African Republic": "Центрально-Африканская Республика",
     "Chad": "Чад",
@@ -405,6 +406,7 @@
     "Papua New Guinea": "Папуа-Новая Гвинея",
     "Paraguay": "Парагвай",
     "Password": "Пароль",
+    "Proceed Payment": "поступления платежа",
     "Pay :amount": "Оплатить :amount",
     "Payment Cancelled": "Платёж отменён",
     "Payment Confirmation": "Платёж подтверждён",
@@ -430,6 +432,7 @@
     "Please provide the email address of the person you would like to add to this team.": "Укажите электронный адрес человека, которого Вы хотите добавить в эту команду.",
     "Please provide your name.": "Пожалуйста, укажите Ваше имя.",
     "Poland": "Польша",
+    "Phone": "телефоне",
     "Portugal": "Португалия",
     "Press \/ to search": "Нажмите \"\/\" для поиска",
     "Preview": "Предпросмотр",
@@ -704,5 +707,8 @@
     "Zambia": "Замбия",
     "Zimbabwe": "Зимбабве",
     "Zip \/ Postal Code": "Индекс",
-    "Åland Islands": "Аландские острова"
+    "Åland Islands": "Аландские острова",
+    "Your Order Details": "Детали вашего заказа",
+    "About": "Про",
+    "Useful Articles": "Полезные статьи"
 }

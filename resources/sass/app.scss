@@ -7,8 +7,13 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Flags
+@import '~flag-icon-css/css/flag-icons.min.css';
+
 // Custom Styles
 @import 'global';
 @import "nav";
 @import "footer";
 @import "home";
+@import "about";
+@import "blog";

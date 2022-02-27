@@ -38,18 +38,24 @@
                     </tr>
                     </thead>
                     <tbody class="mb-3">
-                        @if($product)
+                        @foreach($products as $product)
                             <tr>
                                 <td class="font-weight-bold">{{ $product->id }}</td>
                                 <td class="font-weight-bold text-primary">{{ $product->name }}</td>
                                 <td>{{ $product->amount }}</td>
-                                <td>{{ $product->price }}</td>
+                                <td>
+                                    <div>
+                                        <span>£{{ $product->price_el }}</span>/
+                                        <span>€{{ $product->price_en }}</span>/
+                                        <span>₽{{ $product->price_ru }}</span>
+                                    </div>
+                                </td>
                                 <td>{{ $product->created_at->format('d M Y') }}</td>
                                 <td class="d-flex">
                                     <a title="Edit" href="{{ route('admin.products.edit', $product->id) }}" class="fas fa-pen text-primary mr-3"></a>
                                 </td>
                             </tr>
-                        @endif
+                        @endforeach
                 </table>
             </div>
         </div>

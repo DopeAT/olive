@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Config;
 
 class HomeController extends Controller
 {
@@ -13,6 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
+        parent::__construct();
         //$this->middleware('auth');
     }
 
@@ -23,6 +25,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $locale = Config::get('app.locale');
+
+        return view("web.home." . $locale, [
+            'olive' => $this->olive,
+            'products' => $this->products,
+        ]);
     }
 }

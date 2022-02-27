@@ -1,165 +1,150 @@
 #home{
   .intro-section {
-    height: 700px;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
 
-    &#intro {
-      //background-image: url(/images/asd.jpg);
-      background-image: url(/images/homeBg.webp);
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-position: center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+      height: 700px;
+      padding-top: 150px;
+      text-align: center;
+      background: #fff;
 
-      .darken-bg-text {
-          background: rgba(0,0,0,0.55);
+    .content {
+      h1 {
+        font-size: 4.33rem;
+        font-weight: 700;
+        line-height: 1.2;
       }
 
-      .intro-text {
-        padding-top: 10%;
-        //padding-bottom: 90px;
-        padding-bottom: 70px;
-        // New Var
-        color: #fdf3f3;
-
-        .intro-lead-in {
-          font-size: 2.5em;
-          font-family: "Roboto Slab","Palatino Linotype","Book Antiqua",Palatino,serif;
-        }
-
-        p {
-          padding: 15px;
-          font-size: 1.2em;
-          font-family: "Roboto Slab","Palatino Linotype","Book Antiqua",Palatino,serif;
-        }
-
-        .fas.fa-angle-down {
-          font-size: 30px!important;
-        }
-
+      .hero-text {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
       }
 
-      .icons{
-        font-size: 20px;
-          // New Var
-          color: #fdf3f3;
-          padding: 0 0 25px 0;
+      .buy {
+        margin-top: 20px !important;
+        padding: .375rem 2rem;
+        font-weight: 600;
+        line-height: 1.5;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
 
-
-        span{
-          margin-right: 16.5px;
-          text-transform: uppercase;
+        i {
+          padding: 0 .4rem;
         }
       }
-
     }
   }
 
-  #whyUseUs{
+  .intro-text-section {
+    padding: 90px 0;
 
-    h4{
-      font-weight: 600;
+    h2 {
+      &::after {
+        content: '';
+        width: 100px;
+        height: 2px;
+        background: $theme;
+        display: block;
+        margin: 20px auto 40px;
+      }
     }
 
-    .title{
-      color: #333;
-      font-size: 24px;
-    }
-
-    .boxes{
-      text-align: center;
-      border: 2px solid #fff;
-      margin: 5px 0;
-    }
-
-    .non-icon {
-      color: #40a0d2;
-    }
-
-    .non-icon, .icon-field {
-      font-family: "Roboto Slab","Palatino Linotype","Book Antiqua",Palatino,serif;
-      font-size: 3em;
+    .lead {
+      font-size: 1.25rem;
       font-weight: 300;
     }
 
+    .pros-row {
+
+      .boxes {
+        text-align: center;
+        margin: 30px 0;
+
+        h4 {
+          font-weight: 600;
+          min-height: 50px;
+        }
+
+        .icon-field {
+          font-family: "Roboto Slab", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+          font-size: 3em;
+          font-weight: 300;
+        }
+      }
+    }
   }
 
-  #about-us{
+  .features {
+    .feature {
+      text-align: center;
+      padding: 15px;
 
-    .testimonials{
-
-      .testimonial-user {
-        margin-right: 23%;
-        margin-left: 23%;
-
-        img{
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          max-width: 170px;
-          margin: 0 auto
-        }
-
-        .avatar-name {
-          margin-top: 1.5rem !important;
-          font-weight: 700 !important;
-          text-align: center;
-        }
-
-        .prof {
-          text-align: center;
-          font-weight: 600;
-        }
-
-        .star-text {
-          color: #ff9800 !important;
-          text-align: center;
-        }
-
+      &:first-of-type,
+      &:nth-of-type(2),
+      &:nth-of-type(3),
+      &:nth-of-type(5),
+      &:nth-of-type(6),
+      &:nth-of-type(7){
+        border-right: 1px solid #eee;
       }
 
+      &:first-of-type,
+      &:nth-of-type(2),
+      &:nth-of-type(3),
+      &:nth-of-type(4){
+        border-bottom: 1px solid #eee;
+        padding-top: 0;
+      }
+
+      .icon {
+        padding: 20px;
+
+        i {
+          color: $theme;
+          font-size: 25px;
+        }
+      }
+
+      .text {
+        span {
+          font-size: 16px;
+        }
+      }
     }
-
   }
-
 }
 
 
 @media (max-width: 575.98px) {
-    #home {
-        .intro-section {
-            height: 575px;
-            padding-top: 0px;
-            text-align: center;
-            background: #fff;
-
-            &#intro {
-
-                .intro-text {
-                    padding-top: 5%;
-                    padding-bottom: 20px;
-                }
-
-                .icons{
-
-                    display: grid;
-
-                    span{
-                        margin: 5px auto;
-                        text-transform: uppercase;
-                    }
-                }
-            }
-        }
-
-        #whyUseUs {
-            .title {
-                font-size: 23px;
-                font-weight: 600;
-            }
-        }
-    }
+    //#home {
+    //    .intro-section {
+    //        height: 575px;
+    //        padding-top: 0px;
+    //        text-align: center;
+    //        background: #fff;
+    //
+    //        &#intro {
+    //
+    //            .intro-text {
+    //                padding-top: 5%;
+    //                padding-bottom: 20px;
+    //            }
+    //
+    //            .icons{
+    //
+    //                display: grid;
+    //
+    //                span{
+    //                    margin: 5px auto;
+    //                    text-transform: uppercase;
+    //                }
+    //            }
+    //        }
+    //    }
+    //
+    //    #whyUseUs {
+    //        .title {
+    //            font-size: 23px;
+    //            font-weight: 600;
+    //        }
+    //    }
+    //}
 }

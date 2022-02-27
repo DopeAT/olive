@@ -64,3 +64,28 @@ hr.white-hr{
 .text-pre-wrap {
     white-space: pre-wrap;
 }
+
+.white-background {
+    background-color: #ffffff;
+}
+
+.gx-5 {
+    --bs-gutter-x: 2.5rem;
+}
+
+// Products
+.products {
+    .product {
+        text-align: center;
+
+        img {
+            width: 400px;
+            max-height: 300px;
+            padding: 10px;
+        }
+
+        .product-name {
+            font-weight: 600;
+        }
+    }
+}

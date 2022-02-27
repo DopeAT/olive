@@ -11,6 +11,9 @@
 |
 */
 
+// Admin Routes
+require_once('admin.php');
+
 // Localized
 Route::localized(function () {
     Auth::routes();
@@ -20,7 +23,13 @@ Route::localized(function () {
 
     Route::get('/blog', 'BlogController@index')->name('blog.index');
     Route::get('/blog/{post}', 'BlogController@show')->name('blog.show');
-});
 
-// Admin Routes
-require_once('admin.php');
+    // Order Page
+    Route::get('/order', 'OrderController@order')->name('order');
+
+    // Payment Routes
+    Route::post('/charge', 'PaymentController@charge');
+
+    // Pages
+    Route::get('/{page}', 'PagesController@show');
+});

@@ -1,0 +1,85 @@
+#blogIndex {
+  background-color: #f8fafc;
+
+  .posts {
+    .card {
+      border-radius: 0.35rem;
+      box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+
+      .card-img-top {
+        height: 360px;
+      }
+
+      &.lift {
+        text-decoration: none;
+        color: inherit!important;
+        box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+        transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+        &:hover {
+          transform: translateY(-0.3333333333rem);
+          box-shadow: 0 0.5rem 2rem 0 rgb(33 40 50 / 25%);
+        }
+      }
+
+      .card-title {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .card-text {
+        color: #69727a!important;
+      }
+    }
+  }
+}
+
+header {
+  background-image: url(/images/wooden-ladder-gc4fbb675b_1920.jpg);
+  height: 265px;
+  color: #f8fafc;
+  background-color: $theme;
+  position: relative;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &.overlay {
+    &:before {
+      opacity: 0.6;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #000;
+    }
+  }
+
+  .page-header-title {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+
+  .page-header-text {
+    font-size: 1.15rem;
+    --bs-text-opacity: 1;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .text-light {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+  }
+
+  .svg-border-rounded svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+  }
+}

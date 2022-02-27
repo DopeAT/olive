@@ -1,0 +1,142 @@
+#about{
+  .intro-section {
+
+      height: 400px;
+      padding-top: 80px;
+      text-align: center;
+      background: #fff;
+
+    .content {
+      h1 {
+        font-size: 4.33rem;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+
+      .hero-text {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+      }
+
+      .buy {
+        margin-top: 20px !important;
+        padding: .375rem 2rem;
+        font-weight: 600;
+        line-height: 1.5;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+
+        i {
+          padding: 0 .4rem;
+        }
+      }
+    }
+  }
+
+  .intro-text-section {
+    padding: 90px 0;
+
+    h2 {
+      &::after {
+        content: '';
+        width: 100px;
+        height: 2px;
+        background: $theme;
+        display: block;
+        margin: 20px auto 40px;
+      }
+    }
+
+    .lead {
+      font-size: 1.25rem;
+      font-weight: 300;
+    }
+
+    .pros-row {
+
+      .boxes {
+        text-align: center;
+        margin: 30px 0;
+
+        h4 {
+          font-weight: 600;
+          min-height: 50px;
+        }
+
+        .icon-field {
+          font-family: "Roboto Slab", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+          font-size: 3em;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .features {
+    .feature {
+      text-align: center;
+      padding: 15px;
+
+      &:first-of-type,
+      &:nth-of-type(2),
+      &:nth-of-type(3),
+      &:nth-of-type(5),
+      &:nth-of-type(6),
+      &:nth-of-type(7){
+        border-right: 1px solid #eee;
+      }
+
+      &:first-of-type,
+      &:nth-of-type(2),
+      &:nth-of-type(3),
+      &:nth-of-type(4){
+        border-bottom: 1px solid #eee;
+        padding-top: 0;
+      }
+
+      .icon {
+        padding: 20px;
+
+        i {
+          color: $theme;
+          font-size: 25px;
+        }
+      }
+
+      .text {
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .overlay {
+    &:before {
+      opacity: 0.8;
+    }
+  }
+
+  .benefits-content {
+    .details {
+      .circle-num {
+        background: #0f6848;
+        border-radius: 0.8em;
+        -moz-border-radius: 0.8em;
+        -webkit-border-radius: 0.8em;
+        color: #ffffff;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 1.6em;
+        margin-right: 5px;
+        text-align: center;
+        width: 1.6em;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 575.98px) {
+
+}

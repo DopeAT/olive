@@ -22,7 +22,7 @@
     "Add Team Member": "Προσθήκη Μέλους Ομάδας",
     "Add VAT Number": "Add VAT Number",
     "Added.": "Προστίθεται.",
-    "Address": "Address",
+    "Address": "Διεύθυνση",
     "Address Line 2": "Address Line 2",
     "Afghanistan": "Αφγανιστάν",
     "Aland Islands": "Νήσοι Ώλαντ",
@@ -107,6 +107,7 @@
     "Cancel Subscription": "Cancel Subscription",
     "Cape Verde": "Δημοκρατία του Κάμπου Βέρντε",
     "Card": "Κάρτα",
+    "Cardholder Name": "Κάτοχος κάρτας",
     "Cayman Islands": "Νήσοι Κέιμαν",
     "Central African Republic": "Κεντροαφρικανική Δημοκρατία",
     "Chad": "Τσαντ",
@@ -419,6 +420,7 @@
     "Peru": "Περού",
     "Philippines": "Φιλιππίνων",
     "Photo": "Φωτογραφία",
+    "Phone": "Τηλέφωνο",
     "Pitcairn": "Νήσοι Πίτκερν",
     "Please accept the terms of service.": "Please accept the terms of service.",
     "Please click the button below to verify your email address.": "Κάντε κλικ στο παρακάτω κουμπί για να επαληθεύσετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας.",
@@ -705,10 +707,16 @@
     "Zimbabwe": "Ζιμπάμπουε",
     "Zip \/ Postal Code": "Zip \/ Postal Code",
     "Åland Islands": "Åland Islands",
+    "Proceed Payment": "Ολοκλήρωση παραγγελίας",
+    "Your Order Details": "Επισκόπηση παραγγελίας",
 
 
     "Don't have an account?": "Νέος χρήστης;",
     "Firstname": "Ονομα",
     "Lastname": "Επίθετο",
-    "Phone": "Τηλέφωνο"
+    "Phone": "Τηλέφωνο",
+    "About": "Σχετικά με το ",
+    "ORDER": "ΠΑΡΑΓΚΕΛΙΑ",
+    "Useful Articles": "Χρήσιμα Αρθρα",
+    "Blog": "Αρθρα"
 }
