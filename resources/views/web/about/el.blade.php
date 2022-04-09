@@ -17,7 +17,7 @@
                             αντιοξειδωτικά από το εξαιρετικό
                             παρθένο ελαιόλαδο.
                         </p>
-                        <a href="{{ route('order') }}?order=1&amount=1" class="buy btn btn-custom">
+                        <a href="{{ route('order') }}?order=1" class="buy btn btn-custom">
                             Προσθήκη στο καλάθι <i class="fas fa-shopping-cart"></i>
                         </a>
                     </div>

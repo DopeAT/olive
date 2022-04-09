@@ -80,11 +80,8 @@ class ProductController extends Controller
     {
         $product->update([
             'name'  => $request->name,
-            'slug'  => slug($request->name),
             'description' => $request->description,
-            'price_el' => $request->price_el,
-            'price_en' => $request->price_en,
-            'price_ru' => $request->price_ru,
+            'price' => $request->price,
             'amount' => $request->amount,
         ]);
 

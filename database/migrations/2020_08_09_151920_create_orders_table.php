@@ -20,8 +20,8 @@ class CreateOrdersTable extends Migration
             $table->string('order_email');
             $table->string('order_phone');
             $table->text('order_address');
-            $table->unsignedBigInteger('product_id');
-            $table->enum('status', ['completed', 'in-progress', 'cancelled', 'failed']);
+            $table->text('products');
+            $table->enum('status', ['completed', 'in-progress', 'cancelled', 'failed', 'succeeded']);
             $table->boolean('is_new')->default(0);
             $table->timestamps();
             $table->softDeletes();

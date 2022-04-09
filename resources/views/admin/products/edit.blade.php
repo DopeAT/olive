@@ -1,5 +1,5 @@
 @extends('admin.layouts.app')
-@section('title', 'Product Admin Dashboard | Olive')
+@section('title', 'Product Admin Dashboard | Olivepower')
 @section('heading', 'Product - Dashboard')
 
 @section('content')
@@ -43,19 +43,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">€</span>
                             </div>
-                            <input type="text" name="price_el" class="form-control" value="{{ $product->price_el }}" required autofocus>
-                        </div>
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">£</span>
-                            </div>
-                            <input type="text" name="price_en" class="form-control" value="{{ $product->price_en }}" required autofocus>
-                        </div>
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">₽</span>
-                            </div>
-                            <input type="text" name="price_ru" class="form-control" value="{{ $product->price_ru }}" required autofocus>
+                            <input type="text" name="price" class="form-control" value="{{ $product->price }}" required autofocus>
                         </div>
                     </div>
                 </div>

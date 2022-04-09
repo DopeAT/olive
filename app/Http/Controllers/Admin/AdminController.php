@@ -23,7 +23,7 @@ class AdminController extends Controller
         $counters = [
             'newsletter' => Newsletter::count(),
 //            'orders' => Order::count(),
-            'products' => Product::first()->amount,
+            'products' => 1,
             'inbox' => Message::count(),
         ];
 

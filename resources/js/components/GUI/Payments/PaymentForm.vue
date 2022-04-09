@@ -124,8 +124,14 @@
             }
         },
         computed: {
+          orders() {
+            return this.$store.getters['Order/getOrders']
+          },
+          totalPayAmount() {
+              return this.$store.getters['Order/getTotalPayAmount']
+          },
           disabledButton() {
-              return !!(this.errors.errorCard || !this.completeCard || this.paymentProceed)
+              return !!(this.errors.errorCard || !this.completeCard || this.paymentProceed || !this.orders.length)
           }
         },
         methods: {
@@ -163,12 +169,13 @@
                         this.stripeToken = tokenRes.token.id
 
                         const chargeRes = await axios.post("/charge", {
+                            products: this.orders,
                             stripeToken: this.stripeToken,
                             cardName: this.form.cardName,
                             phone: this.form.phone,
                             email: this.form.email,
                             address: this.form.address,
-                            amount: 50,
+                            amount: this.totalPayAmount,
                         })
 
                         this.paymentMessage = chargeRes.data.info.message

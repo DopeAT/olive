@@ -15,7 +15,7 @@
                             18,000 times more antioxidants than
                             in the extra virgin olive oil.
                         </p>
-                        <a href="{{ route('order') }}?order=1&amount=1" class="buy btn btn-custom">
+                        <a href="{{ route('order') }}?order=1" class="buy btn btn-custom">
                             Add to basket <i class="fas fa-shopping-cart"></i>
                         </a>
                     </div>

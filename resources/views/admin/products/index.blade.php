@@ -1,5 +1,5 @@
 @extends('admin.layouts.app')
-@section('title', 'Products Admin Dashboard | Olive')
+@section('title', 'Products Admin Dashboard | Olivepower')
 @section('heading', 'Products - Dashboard')
 
 @section('content')
@@ -18,7 +18,6 @@
                 <span class="font-weight-bold">
                     Product
                 </span>
-{{--                <a href="{{ route('admin.products.create') }}" class="btn-sm btn btn-success"><i class="fas fa-plus"></i> Add Product</a>--}}
             </div>
         </div>
 
@@ -45,9 +44,7 @@
                                 <td>{{ $product->amount }}</td>
                                 <td>
                                     <div>
-                                        <span>£{{ $product->price_el }}</span>/
-                                        <span>€{{ $product->price_en }}</span>/
-                                        <span>₽{{ $product->price_ru }}</span>
+                                        <span>{{ $product->price }}</span>
                                     </div>
                                 </td>
                                 <td>{{ $product->created_at->format('d M Y') }}</td>

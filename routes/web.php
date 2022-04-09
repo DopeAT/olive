@@ -18,7 +18,11 @@ require_once('admin.php');
 Route::localized(function () {
     Auth::routes();
 
+    // Api
+    Route::get('/api/products', 'ApiController@products');
+
     Route::get('/', 'HomeController@index')->name('home');
+    Route::get('/test', 'HomeController@test')->name('test');
     Route::get('/about', 'PagesController@about')->name('about');
 
     Route::get('/blog', 'BlogController@index')->name('blog.index');

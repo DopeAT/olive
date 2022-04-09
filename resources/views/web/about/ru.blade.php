@@ -17,7 +17,7 @@
                             антиоксидантов, чем в оливковом
                             масле.
                         </p>
-                        <a href="{{ route('order') }}?order=1&amount=1" class="mt-3 buy btn btn-lg btn-custom">
+                        <a href="{{ route('order') }}?order=1" class="mt-3 buy btn btn-lg btn-custom">
                             Добавить в корзину <i class="fas fa-shopping-cart"></i>
                         </a>
                     </div>

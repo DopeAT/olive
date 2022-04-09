@@ -17,17 +17,30 @@
 <script>
 import PaymentForm from "./GUI/Payments/PaymentForm"
 import Cart from "./GUI/Cart"
+import {mapGetters} from "vuex";
 
 export default {
     name: "Order",
     components: {Cart, PaymentForm},
-    mounted() {
-        const params = new URLSearchParams(window.location.search)
-        const order = params.get('order')
-        const amount = params.get('amount')
+    computed: {
+        ...mapGetters({
+            orders: 'Order/getOrders',
+        }),
+    },
+    async mounted() {
+        await this.$store.dispatch('Order/getProducts')
 
-        if (order && amount) {
-            this.$store.dispatch('Order/initOrder', { order, amount })
+        const params = new URLSearchParams(window.location.search)
+        const order = parseInt(params.get('order'))
+
+        if (isNaN(order)) return
+
+        if (!this.orders.length) {
+            return await this.$store.dispatch('Order/initOrder', { order: order || 1 })
+        }
+
+        if (order) {
+          await this.$store.dispatch('Order/updateOrders', { order })
         }
     }
 }

@@ -6,14 +6,14 @@
                     <div class="col-md-6 product">
                         <img src="/images/product-transparentx{{ $product->id }}.png" alt="{{ $product->name }}"
                              class="img-fluid">
-                        <p class="product-name mb-2"> {{ $product->id }} Μπουκάλι OlivePower </p>
+                        <p class="product-name mb-2"> {{ $product->name }} </p>
                         <p class="product-decription mb-0">Φυσικό εκχύλισμα φύλλων άγριας ελιάς</p>
                         <p class="product-decription mb-0">Αρκετό για ένα μήνα!</p>
                         <p class="product-decription">20 σταγόνες την ημέρα! (2 x 10)</p>
                         <div class="price">
-                            <span class="font-weight-bold">€{{ +$product->price_el }}</span>
+                            <span class="font-weight-bold">€{{ +$product->price }}</span>
                         </div>
-                        <a href="{{ route('order') }}?order={{ $product->id }}&amount=1" class="mt-3 buy btn btn-lg btn-custom">
+                        <a href="{{ route('order') }}?order={{ $product->id }}" class="mt-3 buy btn btn-lg btn-custom">
                             Προσθήκη στο καλάθι <i class="fas fa-shopping-cart"></i>
                         </a>
                         <p class="small pt-1 font-weight-bold">ΔΩΡΕΑΝ Παράδοση</p>
@@ -46,14 +46,14 @@
                     <div class="col-md-6 product">
                         <img src="/images/product-transparentx{{ $product->id }}.png" alt="{{ $product->name }}"
                              class="img-fluid">
-                        <p class="product-name mb-2"> {{ $product->id }} OlivePower </p>
+                        <p class="product-name mb-2"> {{ $product->name }} </p>
                         <p class="product-decription mb-0">Wild Olive Leaf Extract!</p>
                         <p class="product-decription mb-0">Enough for one month!</p>
                         <p class="product-decription">20 drops a day! (2 x 10)</p>
                         <div class="price">
-                            <span class="font-weight-bold">£{{ +$product->price_en }}</span>
+                            <span class="font-weight-bold">€{{ +$product->price }}</span>
                         </div>
-                        <a href="{{ route('order') }}?order={{ $product->id }}&amount=1" class="mt-3 buy btn btn-lg btn-custom">
+                        <a href="{{ route('order') }}?order={{ $product->id }}" class="mt-3 buy btn btn-lg btn-custom">
                             Add to basket <i class="fas fa-shopping-cart"></i>
                         </a>
                         <p class="small pt-1 font-weight-bold">FREE Delivery</p>
@@ -84,14 +84,14 @@
                     <div class="col-md-6 product">
                         <img src="/images/product-transparentx{{ $product->id }}.png" alt="{{ $product->name }}"
                              class="img-fluid">
-                        <p class="product-name mb-2"> {{ $product->id }} бутылочка Olive Power </p>
+                        <p class="product-name mb-2"> {{ $product->name }} </p>
                         <p class="product-decription mb-0">Экстракт листьев дикой оливы</p>
                         <p class="product-decription mb-0">Достаточно на один месяц!</p>
                         <p class="product-decription">20 капель в день (2х10)</p>
                         <div class="price">
-                            <span class="font-weight-bold">₽{{ +$product->price_en }}</span>
+                            <span class="font-weight-bold">€{{ +$product->price }}</span>
                         </div>
-                        <a href="{{ route('order') }}?order={{ $product->id }}&amount=1" class="mt-3 buy btn btn-lg btn-custom">
+                        <a href="{{ route('order') }}?order={{ $product->id }}" class="mt-3 buy btn btn-lg btn-custom">
                             Добавить в корзину <i class="fas fa-shopping-cart"></i>
                         </a>
                         <p class="small pt-1 font-weight-bold">бесплатная доставка</p>
