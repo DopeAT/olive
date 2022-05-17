@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cf47a0f-1518-4dff-ba4c-00d6c87eafa0" name="Changes" comment="" />
+    <list default="true" id="6cf47a0f-1518-4dff-ba4c-00d6c87eafa0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_nav.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,8 +186,8 @@
       <recent name="C:\xampp\htdocs\olive\resources\js\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\olive\resources\views" />
       <recent name="C:\xampp\htdocs\olive\public\images" />
+      <recent name="C:\xampp\htdocs\olive\resources\views" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -247,6 +250,7 @@
       <workItem from="1649092722955" duration="2666000" />
       <workItem from="1649249461552" duration="910000" />
       <workItem from="1649515642269" duration="3871000" />
+      <workItem from="1652615187775" duration="694000" />
     </task>
     <servers />
   </component>
