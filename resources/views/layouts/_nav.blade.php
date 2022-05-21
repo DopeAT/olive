@@ -24,9 +24,9 @@
                 <li class="nav-item">
                     <a class="nav-link theme-color font-weight-bold" href="{{ route('order') }}">{{ __('ORDER') }}</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('blog.index') }}">{{ __('Blog') }}</a>
-                </li>
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="{{ route('blog.index') }}">{{ __('Blog') }}</a>--}}
+{{--                </li>--}}
                 <li class="nav-item dropdown">
                     <a id="navbarDropdown"
                        class="nav-link dropdown-toggle text-uppercase"

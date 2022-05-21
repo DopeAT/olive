@@ -317,10 +317,7 @@
                                             </tr>
                                             <tr>
                                                 <td class="content-block text-center">
-                                                    {{ env('COMPANY') }},
-                                                    {{ env('ADDRESS') }},
-                                                    {{ env('CITY') }}, {{ env('COUNTY') }},
-                                                    {{ env('POSTCODE') }}
+                                                    {{ env('COMPANY') }}
                                                 </td>
                                             </tr>
                                             </tbody>

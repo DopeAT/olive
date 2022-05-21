@@ -108,7 +108,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.0.0/js/bootstrap-datetimepicker.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
 
-<script src='https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=ud9yspx0b2aauj2z7gftecn1cn3nc7qdw4thb66an53zf6kv'></script>
+{{--<script src='https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=ud9yspx0b2aauj2z7gftecn1cn3nc7qdw4thb66an53zf6kv'></script>--}}
+{{--<script src="https://cdn.tiny.cloud/1/50h8yyogimd7638lwk7arz855v7590pc797fgb2hfqfzrlbq/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>--}}
+
 
 <script src="/vendor/assets/js/custom.js"></script>
 

@@ -32,4 +32,16 @@ class PagesController extends Controller
             'products' => $this->products,
         ]);
     }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function privacy()
+    {
+        $locale = Config::get('app.locale');
+
+        return view("web.privacy." . $locale);
+    }
 }

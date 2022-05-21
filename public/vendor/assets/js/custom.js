@@ -31,7 +31,7 @@ $(document).ready(function() {
         $('#datatable').DataTable({
             "ordering": true
         });
-    } );
+    });
 
 });
 

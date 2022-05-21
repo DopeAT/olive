@@ -10,13 +10,7 @@
                         <a href="{{ route('about') }}">{{ __('About') }} Olive Boost</a>
                     </li>
                     <li>
-                        <a href="{{ route('about') }}">{{ __('Privacy Policy') }}</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('about') }}">{{ __('Cookies Policy') }}</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('about') }}">{{ __('Terms and Conditions') }}</a>
+                        <a href="{{ route('privacy') }}">{{ __('Privacy Policy') }}</a>
                     </li>
                 </ul>
             </div>
@@ -43,13 +37,10 @@
                 <span class="footer-heading-text">Contact</span>
                 <ul class="footerLinks">
                     <li>
-                        <i class="fab fa-whatsapp customFa"></i> <a href="https://api.whatsapp.com/send?phone={{ env('PHONE_NUM') }}"> +44 7715 366349</a>
+                        <i class="fas fa-phone customFa fa-rotate-90"></i> <a href="tel:{{ env('PHONE_NUM') }}"> +30 6936831784 </a>
                     </li>
                     <li>
-                        <i class="fas fa-phone customFa fa-rotate-90"></i> <a href="tel:{{ env('PHONE_NUM') }}"> +44 7715 366349 </a>
-                    </li>
-                    <li>
-                        <i class="fas fa-envelope-square customFa"></i> <a href="mailto:{{env('HELLO_EMAIL')}}"> Email here {{env('HELLO_EMAIL')}}</a>
+                        <i class="fas fa-envelope-square customFa"></i> <a href="mailto:{{env('INFO_EMAIL')}}"> {{env('INFO_EMAIL')}}</a>
                     </li>
                 </ul>
             </div>
@@ -62,15 +53,14 @@
     <div class="text-center">
         <ul class="list-unstyled list-inline socislBtns">
             <li class="list-inline-item"><a href="https://www.facebook.com/{{ env('FACEBOOK_ID') }}"><i class="fab fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="http://linkedin.com/{{ env('FACEBOOK_ID') }}"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="list-inline-item"><a href="http://linkedin.com/{{ env('INSTA_ID') }}"><i class="fab fa-instagram"></i></a></li>
         </ul>
     </div>
     <!--/.Social buttons-->
 
     <!--Copyright-->
     <div class="footer-copyright py-3 text-center">
-        <p>{{ env('COMPANY') }} are registered in England and Wales with company number number {{ env('COMPANY_NUMBER') }}. </p>
-        © Copyright 2018
+        © Copyright {{ date('Y') }}
         <a href="/"> {{ env('APP_NAME') }} </a>
         All rights reserved.
     </div>
