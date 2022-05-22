@@ -192,25 +192,24 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-12">
-                    Natural Wild Olive Leaf extract.
-                    Natural Health Drops with active care
-                    from Sunny Greece!
-
-                    OLIVE POWER- an Extract from the
+                    <p>Natural Wild Olive Leaf extract.</p>
+                    <p>Natural Health Drops with active care
+                    from Sunny Greece!</p>
+                    <p>OLIVE POWER- an Extract from the
                     Leaves of Wild Olive Trees. 100%
                     Natural product for more vital power
                     and health recovery, created with
                     innovative technology, with no
-                    artificial ingredients.
-                    OLIVE POWER is a unique Wild Olive
+                    artificial ingredients.</p>
+                    <p><strong>OLIVE POWER is a unique Wild Olive
                     Leaf Extract with the highest content of
                     polyphenols, fully absorbable from the
-                    body.
-                    The most powerful natural antioxidant
+                    body.</strong></p>
+                    <p>The most powerful natural antioxidant
                     in the world, which balances vital
                     functions, neutralizes the action of free
                     radicals in the body and contains
-                    nutrients for human health.
+                    nutrients for human health.</p>
                 </div>
             </div>
         </div>
@@ -235,7 +234,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -246,7 +245,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -258,7 +257,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -269,7 +268,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -281,7 +280,7 @@
                     </div>
 
 
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -291,7 +290,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -302,7 +301,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -313,7 +312,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -325,7 +324,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -336,7 +335,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -347,7 +346,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -357,7 +356,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -369,7 +368,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -380,7 +379,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -391,7 +390,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -401,7 +400,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>

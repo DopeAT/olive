@@ -29,7 +29,7 @@
 
     <section class="intro-text-section">
         <div class="container text-center">
-            <h2 class="text-center">Welcome at Olive Power</h2>
+            <h2 class="text-center welcome-text">Welcome at Olive Power</h2>
             <p>
                 OLIVE POWER is a unique Wild Olive
                 Leaf Extract with the highest content of

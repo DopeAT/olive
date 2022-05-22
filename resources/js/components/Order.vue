@@ -2,11 +2,11 @@
     <section class="section">
         <div class="container">
             <div class="row my-5 py-3">
-                <div class="col-md-8">
+                <div class="payment-form-section col-md-8 order-md-1 order-2">
                     <PaymentForm />
                 </div>
 
-                <div class="col-md-4 grey p-lg-3 py-md-3 px-md-0" style="background-color: #f5f5f5;">
+                <div class="cart-section col-md-4 grey p-lg-3 py-md-3 px-md-0 order-md-2 order-1">
                     <Cart />
                 </div>
             </div>
@@ -89,13 +89,25 @@ export default {
 </style>
 
 <style scoped>
+    .cart-section {
+      background-color: #f5f5f5;
+    }
+
     .mainContainer {
         padding: 2rem 3.5rem 2rem 6rem; text-align: left;
     }
 
     /* Small devices (landscape phones, 576px and up) */
-    @media (min-width: 768px) {
+    @media (max-width: 575.98px) {
+        .cart-section {
+            background-color: transparent;
+            padding: 15px;
+            border-bottom: 1px solid #f1f1f1;
+        }
 
+        .payment-form-section {
+            margin-top: 10px;
+        }
     }
 
     /* Medium devices (tablets, 768px and up) */

@@ -204,32 +204,31 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-12">
-                    Φυσικό εκχύλισμα φύλλων άγριας
-                    ελιάς.
-                    Σταγόνες Υγείας από τη φύση με
+                    <p>Φυσικό εκχύλισμα φύλλων άγριας ελιάς.</p>
+                    <p>Σταγόνες Υγείας από τη φύση με
                     ενεργή φροντίδα για σας, από την
-                    ηλιόλουστη Ελλάδα!
-                    Το εκχύλισμα φύλλων άγριας ελιάς
+                    ηλιόλουστη Ελλάδα!</p>
+                    <p>Το εκχύλισμα φύλλων άγριας ελιάς
                     είναι ένα 100% φυσικό προϊόν για
                     περισσότερη ζωτική ενέργεια και
                     βελτίωση της υγείας, που
                     δημιουργήθηκε με πρωτότυπη
                     τεχνολογία, χωρίς τεχνητά
-                    συστατικά.
-                    Το OLIVE POWER είναι το μοναδικό
+                    συστατικά.</p>
+                    <p><strong>Το OLIVE POWER είναι το μοναδικό
                     προϊόν στη Ελλάδα με την
                     υψηλότερη περιεκτικότητα σε
                     πολυφαινόλες, ως εκχύλισμα
                     φύλλων άγριας ελιάς, με την πιο
                     απορροφήσιμη μορφή για το
-                    οργανισμό.
-                    Το πιο ισχυρό φυσικό
+                    οργανισμό.</strong></p>
+                    <p>Το πιο ισχυρό φυσικό
                     αντιοξειδωτικό στον κόσμο, το
                     οποίο εξισορροπεί τις ζωτικές
                     λειτουργίες, εξουδετερώνει τη
                     δράση των ελεύθερων ριζών στο
                     σώμα και έχει πολλά οφέλη για την
-                    ανθρώπινη υγεία.
+                    ανθρώπινη υγεία.</p>
                 </div>
             </div>
         </div>
@@ -257,7 +256,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -268,7 +267,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -291,7 +290,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -312,7 +311,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -334,7 +333,7 @@
                     </div>
 
 
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -354,7 +353,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -376,7 +375,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -398,7 +397,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -421,7 +420,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -444,7 +443,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -466,7 +465,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -489,7 +488,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -512,7 +511,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -535,7 +534,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -556,7 +555,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>
@@ -577,7 +576,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 my-3 border-right border-left">
+                    <div class="col-md-3 my-3 border-right border-left">
                         <div class="benefits-content text-center">
                             <div class="details">
                                 <h4>

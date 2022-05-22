@@ -31,7 +31,7 @@
 
     <section class="intro-text-section">
         <div class="container text-center">
-            <h2 class="text-center">Добро пожаловать в Olive Power</h2>
+            <h2 class="text-center welcome-text">Добро пожаловать в Olive Power</h2>
             <p>
                 OLIVE POWER — это уникальный
                 экстракт листьев дикой оливы с

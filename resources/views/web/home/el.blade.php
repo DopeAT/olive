@@ -31,7 +31,7 @@
 
     <section class="intro-text-section">
         <div class="container text-center">
-            <h2 class="text-center">Καλωσήρθατε στο Olive Power</h2>
+            <h2 class="text-center welcome-text">Καλωσήρθατε στο Olive Power</h2>
             <p>
                 Το OLIVE POWER είναι το μοναδικό
                 προϊόν στη Ελλάδα με την
