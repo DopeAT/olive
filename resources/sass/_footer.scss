@@ -5,7 +5,9 @@ footer#footer{
   padding: 40px 0;
 
   .container .row div {
-    padding: 5px 60px;
+    &:not(#news-feedback, .alert) {
+      padding: 5px 60px;
+    }
   }
 
   span.footer-heading-text{
@@ -60,16 +62,22 @@ footer#footer{
       background: #00aced;
     }
 
+    &.fa-instagram {
+      color: white;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
+
   }
 
   #news-feedback{
 
     #alert-danger{
-      padding-top: 5px;
-      padding-bottom: 5px;
+      //padding-top: 5px;
+      //padding-bottom: 5px;
 
       button#alert-btn{
-        padding: 5px 20px;
+        //padding: 5px 20px;
       }
 
     }

@@ -52,8 +52,8 @@
     <!--Social buttons-->
     <div class="text-center">
         <ul class="list-unstyled list-inline socislBtns">
-            <li class="list-inline-item"><a href="https://www.facebook.com/{{ env('FACEBOOK_ID') }}"><i class="fab fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="http://linkedin.com/{{ env('INSTA_ID') }}"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/{{ env('FACEBOOK_ID') }}"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://instagram.com/{{ env('INSTA_ID') }}"><i class="fab fa-instagram"></i></a></li>
         </ul>
     </div>
     <!--/.Social buttons-->
