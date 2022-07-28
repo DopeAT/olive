@@ -159,7 +159,7 @@
                                 <i class="fas fa-check-circle"></i>
                             </div>
                             <div class="text">
-                                <span>ρυθμίζει το σάκχαρο</span>
+                                <span>Ρυθμίζει το σάκχαρο</span>
                             </div>
                         </div>
                         <div class="col-md-3 feature">
