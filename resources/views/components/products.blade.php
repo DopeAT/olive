@@ -8,7 +8,7 @@
                              class="img-fluid">
                         <p class="product-name mb-2"> {{ $product->name }} </p>
                         <p class="product-decription mb-0">Φυσικό εκχύλισμα φύλλων άγριας ελιάς</p>
-                        <p class="product-decription mb-0">Αρκετό για ένα μήνα!</p>
+                        <p class="product-decription mb-0">Αρκετό για {{ $product->id === 1 ? 'ένα' : 'δυο' }} μήν{{ $product->id === 1 ? 'α' : 'ς' }}!</p>
                         <p class="product-decription">20 σταγόνες την ημέρα! (2 x 10)</p>
                         <div class="price">
                             <span class="font-weight-bold">€{{ +$product->price }}</span>
