@@ -8,7 +8,7 @@
                              class="img-fluid">
                         <p class="product-name mb-2"> {{ $product->name }} </p>
                         <p class="product-decription mb-0">Φυσικό εκχύλισμα φύλλων άγριας ελιάς</p>
-                        <p class="product-decription mb-0">Αρκετό για {{ $product->id === 1 ? 'ένα' : 'δυο' }} μήν{{ $product->id === 1 ? 'α' : 'ς' }}!</p>
+                        <p class="product-decription mb-0">Αρκετό για {{ $product->id === 1 ? 'ένα' : 'δυο' }} μήν{{ $product->id === 1 ? 'α' : 'ες' }}!</p>
                         <p class="product-decription">20 σταγόνες την ημέρα! (2 x 10)</p>
                         <div class="price">
                             <span class="font-weight-bold">€{{ +$product->price }}</span>
@@ -48,7 +48,7 @@
                              class="img-fluid">
                         <p class="product-name mb-2"> {{ $product->name }} </p>
                         <p class="product-decription mb-0">Wild Olive Leaf Extract!</p>
-                        <p class="product-decription mb-0">Enough for one month!</p>
+                        <p class="product-decription mb-0">Enough for {{ $product->id === 1 ? 'one' : 'two' }} month{{ $product->id === 1 ? '' : 's' }}!</p>
                         <p class="product-decription">20 drops a day! (2 x 10)</p>
                         <div class="price">
                             <span class="font-weight-bold">€{{ +$product->price }}</span>
@@ -86,7 +86,7 @@
                              class="img-fluid">
                         <p class="product-name mb-2"> {{ $product->name }} </p>
                         <p class="product-decription mb-0">Экстракт листьев дикой оливы</p>
-                        <p class="product-decription mb-0">Достаточно на один месяц!</p>
+                        <p class="product-decription mb-0">{{ $product->id === 1 ? 'Достаточно для месячного приёма' : 'Достаточно для 2-месячного приёма' }}!</p>
                         <p class="product-decription">20 капель в день (2х10)</p>
                         <div class="price">
                             <span class="font-weight-bold">€{{ +$product->price }}</span>
