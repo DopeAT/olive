@@ -19,7 +19,7 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('about') }}">{{ __('About') }} Olive Boost</a>
+                    <a class="nav-link" href="{{ route('about') }}">{{ __('About') }} Olive Power</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link theme-color font-weight-bold" href="{{ route('order') }}">{{ __('ORDER') }}</a>
